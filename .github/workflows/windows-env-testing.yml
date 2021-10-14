@@ -15,7 +15,7 @@ jobs:
         submodules: true
     - name: Program Files
       run: |
-        cd C:\
+        cd C:\Program Files (x86)
         dir
 
     - name: Test CL
