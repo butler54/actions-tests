@@ -1,0 +1,23 @@
+# This workflow is just to test the windows environment
+# Particularly for C++
+name: Windows Github actions test-cov
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+jobs:
+  cpptest:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: Program Files
+      run: |
+        cd C:\
+        dir
+
+    - name: Test CL
+      run: | 
+        cl
