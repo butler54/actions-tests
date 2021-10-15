@@ -23,7 +23,7 @@ jobs:
         dir
     - name: Shared
       run: |
-        cd "C:\Program Files (x86)\Microsoft Visual Studio\Shared"
+        cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools\VC\Tools"
         dir
     - name: Test CL
       run: | 
