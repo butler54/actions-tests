@@ -19,11 +19,11 @@ jobs:
         dir
     - name: Tools Files
       run: |
-        cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools"
-        dir
+        "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools\VsDevCmd.bat"
+        cl
     - name: Shared
       run: |
-        cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools\VC\Tools"
+        cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools"
         dir
     - name: Test CL
       run: | 
