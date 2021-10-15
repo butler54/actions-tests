@@ -17,6 +17,10 @@ jobs:
       run: |
         cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
         dir
+    - name: Tools Files
+      run: |
+        cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools"
+        dir
     - name: Shared
       run: |
         cd "C:\Program Files (x86)\Microsoft Visual Studio\Shared"
