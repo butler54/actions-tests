@@ -15,7 +15,7 @@ jobs:
         submodules: true
     - name: Program Files
       run: |
-        cd ":\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC"
+        cd ":\Program Files (x86)\Microsoft Visual Studio\2019"
         dir
 
     - name: Test CL
